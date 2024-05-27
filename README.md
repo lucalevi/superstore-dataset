@@ -57,3 +57,27 @@ Discount => Discount provided.
 Profit => Profit/Loss incurred.
 
 
+## Example of code
+In this snippet we are going to see how to create barplots about the States and the total sales or profit about a certain state
+
+```python
+# Define the comparison variables
+comparison_vars = ['Sales', 'Profit']
+
+# Iterate through the list and create scatter plots
+for var in comparison_vars:
+    # 1. Group by State and calculate total sales
+    state_sales = df.groupby('State')[var].sum()
+
+    # 2. Create a bar chart
+    plt.figure(figsize=(10, 6))  # Adjust figure size as desired
+    state_sales.plot(kind='bar', color='skyblue')
+    plt.xlabel('State')
+    plt.ylabel('Total Sales [$]')
+    plt.title(f'Total {var} per State')
+    #plt.xticks(rotationv=45)  # Rotate x-axis labels for better readability (optional)
+    plt.tight_layout()  # Adjust layout to prevent overlapping elements
+    plt.show()
+```
+You can see the full code in the Jupyter notebook above (see main.ipynb)
+
