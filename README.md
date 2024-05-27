@@ -14,11 +14,10 @@ In this Jupyter Notebook I have analysed the dataset of the superstore to answer
 With growing demands and cut-throat competitions in the market, a Superstore Giant is seeking knowledge in understanding what works best for them. They would like to understand which products, regions, categories and customer segments they should target or avoid.
 
 ## Metadata
-Row ID => Unique ID for each row.
-Order ID => Unique Order ID for each Customer.
-Order Date => Order Date of the product.
-
-Ship Date => Shipping Date of the Product.
+- Row ID => Unique ID for each row.
+- Order ID => Unique Order ID for each Customer.
+- Order Date => Order Date of the product.
+- Ship Date => Shipping Date of the Product.
 
 Ship Mode=> Shipping Mode specified by the Customer.
 
