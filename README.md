@@ -15,9 +15,7 @@ With growing demands and cut-throat competitions in the market, a Superstore Gia
 
 ## Metadata
 Row ID => Unique ID for each row.
-
 Order ID => Unique Order ID for each Customer.
-
 Order Date => Order Date of the product.
 
 Ship Date => Shipping Date of the Product.
