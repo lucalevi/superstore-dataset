@@ -81,3 +81,5 @@ for var in comparison_vars:
 ```
 You can see the full code in the Jupyter notebook above (see main.ipynb)
 
+The result of said code snippet, for the Profit part, is as follows:
+ ![Example of OS share pie chart](https://github.com/lucalevi/user-agent-parser/blob/main/results/shares_img/piechart_os.png "Example of OS share pie chart")
