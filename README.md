@@ -82,4 +82,4 @@ for var in comparison_vars:
 You can see the full code in the Jupyter notebook above (see main.ipynb)
 
 The result of said code snippet, for the Profit part, is as follows:
- ![Profit per State](https://github.com/lucalevi/superstore-dataset/blob/main/profit%20per%20state.png] "Profit per State")
+ ![Profit per State](https://github.com/lucalevi/superstore-dataset/blob/main/profitState.png)
